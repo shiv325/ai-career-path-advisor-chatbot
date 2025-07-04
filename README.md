@@ -17,3 +17,7 @@ A simple Streamlit app that shows how to build a chatbot using Gemini's 2.5 Flas
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### How to run on browser
+
+Click on this link : [(https://refactored-goggles-wr7vrx7466r9cv665-8501.app.github.dev/)]
