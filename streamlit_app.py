@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai
+import google.generativeai as genai
 
 # Show title and description.
 st.title("💬 AI Career Path Advisor Chatbot")
