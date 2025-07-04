@@ -52,8 +52,11 @@ if "messages" not in st.session_state:
         {"role": "user", "content": task}
     ]
 
-# Display the existing chat messages via `st.chat_message`.
-for message in st.session_state.messages:
+# Display the existing chat messages via `st.chat_message`, but skip the task message.
+for idx, message in enumerate(st.session_state.messages):
+    # Skip displaying the initial task message
+    if idx == 0 and message["content"] == task:
+        continue
     with st.chat_message("user" if message["role"] == "user" else "assistant"):
         st.markdown(message["content"])
 
