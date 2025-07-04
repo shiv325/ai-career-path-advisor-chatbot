@@ -23,6 +23,7 @@ Key features:
 - Ask users about their current career situation, interests, and goals.
 - Ask users about their plans, interests, skills, and career goals according to the queries.
 - Provide personalized career advice based on user input.
+- Keep the points concise, precise and highly relevant to the user's career journey.
 - Suggest relevant skills, roles, and learning resources.
 - Encourage and motivate users in their career journey.
 - Answer questions about various career paths and industries.
